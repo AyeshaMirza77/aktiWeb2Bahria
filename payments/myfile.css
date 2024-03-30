@@ -1,0 +1,65 @@
+.Company{
+    background-color: blueviolet;
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    height: 100px;
+    text-decoration:  greenyellow underline;
+    border-width: 15px;
+    border-style: double;
+    border-color: blue;
+    border-radius: 45px;
+}
+.navBar{
+    height: 100px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Logo{
+    color: rgb(214, 0, 0);
+    font-size: 25px;
+}
+a{
+    margin-right:100px ;
+}
+.one{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: brown;
+    margin-top: 20px;
+    padding: 2px;
+
+
+
+}
+body{
+    background-color: grey;
+}
+.three{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+.Four{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.Five{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+button{
+    color: black;
+    background-color: blueviolet;
+    border-radius: 40px;
+}

@@ -1,0 +1,22 @@
+.blueColur{
+    background-color: blue;
+}
+.textRed{
+    color: brown;
+}
+.minifyWidth{
+    border: 5px solid red;
+    width: 50%;
+    height: 25% px;
+}
+.multipleStyles{
+    border: 5px solid black;
+    width: 50%;
+    height: 500px;
+    border-left: 3px solid rgb(194, 47, 47);
+    margin:200px 30px 50px 170px
+    padding:
+}
+.greenColor{
+    color: green;
+}
