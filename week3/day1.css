@@ -1,0 +1,41 @@
+.transformStyles{
+    background-color: red;
+    width: 400px;
+}
+
+.transformStyles:hover{
+    background-color: green;
+    /* transform: translateX(-50px); */
+    /* transform: rotateZ(45deg); */
+    /* transform: scaleX(2); */
+    transition: width;
+    width: 800px;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+
+.animStyles{
+    background-color: yellow;
+    width: 4px;
+    animation: customAnimation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate-reverse; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes customAnimation {
+    0%{
+        transform: rotateZ(10deg);
+    }
+    25%{
+        transform: rotateZ(30deg);
+    }
+    50%{
+        transform: rotateZ(90deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
